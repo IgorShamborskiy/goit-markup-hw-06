@@ -619,6 +619,9 @@ transform: translateY(0);
     margin: -1px;
 }
 
+.subtext-div-checkbox:focus{
+    background-color: var(--interactive-elements-color);
+}
 .subtext{
     position: absolute;
     top: 0;
@@ -1000,10 +1003,10 @@ position: relative;
     background-color: var(--interactive-elements-color);
 }
 
-.input-check:focus{
+
+.input-check:focus + span{
 background-color: var(--interactive-elements-color);
 }
-
 
 .input-check:checked+.check-text span {
 background-color: var(--interactive-elements-color);
